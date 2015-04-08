@@ -1,6 +1,6 @@
 ## Prelude
 
-The .xva is actually a .tar file, that contain a xml with the configuration for XEN and folders with names like **Ref:99**, these foldes are the virtual disk of the VM.
+The _.xva_ is actually a _.tar_ file, that contain a _xml_ with the configuration for XEN and folders with names like **Ref:99**, these foldes are the virtual disk of the VM.
 
 Into of each folder has many blocks used by the virtual disk with name like **00000171** and a checksum file with name like **00000171.checksum**.
 
@@ -67,4 +67,3 @@ vboxmanage convertfromraw bar.img foo.vdi --format VDI
 ## ToDo
 
 * Add the search commando to the script
-
